@@ -1,0 +1,40 @@
+# MacOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.swp
+*.log
+
+# Entornos virtuales (cualquier nombre)
+*venv*/
+env/
+*.env
+
+# Modelos y datos grandes
+*.h5
+*.hdf5
+*.ckpt
+*.pth
+*.pt
+*.npz
+*.npy
+*.dylib
+*.so
+*.dll
+
+# Carpetas de entrenamiento
+logs/
+checkpoints/
+saved_models/
+
+# Archivos de configuración locales
+*.sqlite3
+
+# Datos comprimidos
+*.zip
+*.tar
+*.tar.gz
